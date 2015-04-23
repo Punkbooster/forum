@@ -12,7 +12,7 @@
 		.wrapper
 			#logo
 				%p= link_to "Arsen's rails forum", root_path
-			#buttons
+			#button
 				- if user_signed_in?
 					=link_to "New post", new_post_path
 				- else
