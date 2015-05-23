@@ -15,6 +15,11 @@ gem 'haml'
 gem 'simple_form'
 gem 'devise'
 
+gem 'bootstrap-sass'
+
+gem 'will_paginate-bootstrap'
+gem 'will_paginate' 
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
