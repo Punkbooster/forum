@@ -104,7 +104,7 @@ body {
 		.date{
 			margin-top: .25rem;
 			font-size: 0,9rem;
-			color: #B2BAC2;
+			color: black;
 		}
 	}
 }
@@ -119,17 +119,18 @@ body {
 }
 
 #post_content {
+	margin-top:3em;
 	background: white;
 	padding: 2em 5%;
 	border-radius: .5em;
 	h1 {
 		font-weight: 100;
 		font-size: 2em;
-		color: #397CAC;
+		color: black;
 		margin-top: 0;
 	}
 	p {
-		color: #B2BAC2;
+		color: black;
 		font-size: 0,9rem;
 		font-weight: 100;
 		line-height: 1.5;
@@ -165,7 +166,7 @@ body {
 			padding: 0;
 		}
 		.comment_author {
-			color: #397CAC;
+			color: #black;
 			margin-top: .5rem;
 			font-size: 0.6em;
 			font-weight: 700;

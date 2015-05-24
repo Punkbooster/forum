@@ -6,6 +6,21 @@ class PostsController < ApplicationController
 		@posts = Post.all.order("created_at DESC").paginate(page: params[:page], per_page: 3)
 	end
 
+	def recent
+		@posts = Post.recent.paginate(page: params[:page], per_page: 3)
+		render action: :index
+	end
+
+	def active
+		@posts = Post.active.paginate(page: params[:page], per_page: 3)
+		render action: :index
+	end
+
+	def unanswered
+		@posts = Post.unanswered.paginate(page: params[:page], per_page: 3)
+		render action: :index		
+	end
+
 	def show
 	end
 
