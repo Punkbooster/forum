@@ -109,6 +109,7 @@ body {
 	}
 }
 
+
 .button {
 	color: #397CAC;
 	border: 1px solid #397CAC;
@@ -187,4 +188,13 @@ body {
 		border-radius: .2em;
 		margin: 1em 0;
 	}	
+}
+
+#navigation {
+    margin-top: 2em;
+    padding: 1.5em 27% 0;
+    .link {
+    	font-size: 1.5em;
+    	margin-right: 1.5em;
+    }
 }
